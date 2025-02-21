@@ -2,6 +2,9 @@
 body {
   font-family: inter;
 }
+*{
+  box-sizing: border-box;
+}
 .centered {
   margin: auto;
   max-width: 1120px;
@@ -325,7 +328,7 @@ span {
 }
 /* categorrrrry */
 .browse {
-  margin-top: 80px;
+  padding-top: 80px;
   margin-bottom: 32px;
   display: flex;
   justify-content: space-between;
@@ -340,6 +343,7 @@ span {
 .categorys {
   display: flex;
   gap: 32px;
+
 }
 .category {
   display: flex;
@@ -353,22 +357,99 @@ span {
   border-radius: 15px;
   background-color: rgba(237, 237, 237, 1);
 }
+.feriqonia{
+  height: 352px;
+  background-color: #FAFAFA;
+  margin-bottom: 56px;
+}
 @media only screen and (max-width: 1120px) {
   .centered {
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
+    width: 100%;
+  }
+  .feriqonia{
+    height: fit-content;
+    padding-bottom: 64px;
   }
   .categorys {
     flex-wrap: wrap;
-    grid-template-columns: 1fr 1fr;
-    margin-inline: 16px;
-
+    padding-inline: 16px;
+    gap: 16px;
     align-items: center;
     justify-content: center;
+
+  }
+  .browse {
+    padding-inline: 16px;
+  }
+}
+/* PRODUCTTS LIST */
+.description{
+  display: flex;
+  gap:32px;
+  font-family: Inter;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+color: #8B8B8B;
+margin-bottom: 100px;
+}
+.description p:hover{
+  color:#000000;
+  border-bottom: #000000 2px solid;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:268px ;
+  background-color:#F6F6F6 ;
+  border-radius:9px ;
+  padding: 24px 16px;
+  gap: 16px;
+}
+.product img:first-of-type{
+  align-self: flex-end;
+}
+.product p{
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.product p:last-of-type{
+font-weight: 600;
+font-size: 24px;
+letter-spacing: 3%;
+}
+.product .shop-now{
+  width: 183px;
+height: 48px;
+border-radius: 8px;
+background-color: black;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+}
+.prods{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+@media only screen and (max-width: 1120px) {
+  .description{
+  width: 100%;
+   overflow: scroll;
+   padding-inline: 16px;
+
+  }
+  .description p{
+    white-space: nowrap;
   }
 
-  .browse {
-    margin-inline: 16px;
-  }
 }
