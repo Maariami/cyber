@@ -1,7 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 html,
 body,
@@ -126,4 +123,25 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+body {
+  font-family: inter;
+}
+* {
+  box-sizing: border-box;
+}
+
+.centered {
+  margin: auto;
+  max-width: 1120px;
+  width: 100%;
+}
+.shop-now:hover,
+.category:hover,
+li:hover,
+.profile img:hover,
+.services p:hover,
+.assist p:hover,
+.social:hover {
+  cursor: pointer;
 }
