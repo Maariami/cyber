@@ -1,4 +1,3 @@
-
 /* hero START */
 .hero {
   height: 632px;
@@ -314,7 +313,6 @@ span {
 
 /* products list START */
 .description {
-
   display: flex;
   gap: 32px;
   font-family: Inter;
@@ -435,7 +433,6 @@ span {
 @media only screen and (max-width: 1120px) {
   .saleimage {
     background-image: url("../images/saleimg\ small.png");
-    bac
   }
   .sale-head {
     font-size: 48px;
