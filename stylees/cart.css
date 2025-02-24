@@ -144,6 +144,7 @@ section {
   line-height: 32px;
   letter-spacing: 3%;
   color: rgba(0, 0, 0, 1);
+  margin-left: 20px;
 }
 .amount {
   border: 0.5px solid rgba(217, 217, 217, 1);
@@ -216,5 +217,8 @@ section {
   }
   .item img:first-child {
     padding-top: 15px;
+  }
+  .num {
+    margin-left: 0;
   }
 }

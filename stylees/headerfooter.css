@@ -22,6 +22,10 @@ header {
   align-items: center;
   height: 32px;
 }
+.profile a {
+  height: 24px;
+  width: 24px;
+}
 
 .search {
   width: 372px;
