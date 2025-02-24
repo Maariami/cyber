@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "img": "./images/Phones.png",
+    "text": "Phones"
+  },
+  {
+    "id": 2,
+    "img": "./images/watch type.png",
+    "text": "Smart Watches"
+  },
+  {
+    "id": 3,
+    "img": "./images/camera type.png",
+    "text": "Cameras"
+  },
+  {
+    "id": 4,
+    "img": "./images/headphone type.png",
+    "text": "Headphones"
+  },
+  {
+    "id": 5,
+    "img": "./images/Computerscomp type.png",
+    "text": "Computers"
+  },
+  {
+    "id": 6,
+    "img": "./images/Gaminggame type.png",
+    "text": "Gaming"
+  }
+]

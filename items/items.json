@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone 14 Pro Max",
+    "storage": "128GB",
+    "color": "Deep Purple",
+    "price": 900,
+    "image": "./images/Iphone 14 pro 1.png",
+    "buy_link": "#"
+  },
+  {
+    "id": 2,
+    "name": "Blackmagic Pocket Cinema Camera",
+    "resolution": "6K",
+    "price": 2535,
+    "image": "./images/camera.png",
+    "buy_link": "#"
+  },
+  {
+    "id": 3,
+    "name": "Apple Watch Series 9 GPS",
+    "size": "41mm",
+    "color": "Starlight Aluminium",
+    "price": 399,
+    "image": "./images/applewatch.png",
+    "buy_link": "#"
+  },
+  {
+    "id": 4,
+    "name": "AirPods Max",
+    "color": "Silver",
+    "material": "Starlight Aluminium",
+    "price": 549,
+    "image": "./images/airpodbig.png",
+    "buy_link": "#"
+  },
+  {
+    "id": 5,
+    "name": "Samsung Galaxy Watch6 Classic",
+    "size": "47mm",
+    "color": "Black",
+    "price": 369,
+    "image": "./images/watch.png",
+    "buy_link": "#"
+  },
+  {
+    "id": 6,
+    "name": "Galaxy Z Fold5 Unlocked",
+    "storage": "256GB",
+    "color": "Phantom Black",
+    "price": 1799,
+    "image": "./images/flip.png",
+    "buy_link": "#"
+  },
+  {
+    "id": 7,
+    "name": "Galaxy Buds FE",
+    "color": "Graphite",
+    "price": 99.99,
+    "image": "./images/bud.png",
+    "buy_link": "#"
+  },
+  {
+    "id": 8,
+    "name": "Apple iPad 9",
+    "screen": "10.2\"",
+    "storage": "64GB",
+    "connectivity": "Wi-Fi",
+    "color": "Silver",
+    "model": "MK2L3",
+    "year": 2021,
+    "price": 398,
+    "image": "./images/ipad.png",
+    "buy_link": "#"
+  }
+]

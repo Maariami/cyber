@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone 14 Pro 512GB Gold",
+    "model": "MQ233J",
+    "price": 1437,
+    "image": "./images/iphone yellow.png",
+    "buy_link": "#"
+  },
+  {
+    "id": 2,
+    "name": "AirPods Max Silver Starlight Aluminum",
+    "price": 549,
+    "image": "./images/airpodbig.png",
+    "buy_link": "#"
+  },
+  {
+    "id": 3,
+    "name": "Apple Watch Series 8 GPS 41mm Starlight Aluminum",
+    "price": 399,
+    "image": "./images/applewatch.png",
+    "buy_link": "#"
+  },
+  {
+    "id": 4,
+    "name": "Apple iPhone 14 Pro 1TB Gold",
+    "model": "MQ2V3J",
+    "price": 1499,
+    "image": "./images/iphone white.png",
+    "buy_link": "#"
+  }
+]
