@@ -4,8 +4,14 @@ section {
   padding-top: 112px;
   padding-bottom: 112px;
 }
+section.centered {
+  margin-top: 88px;
+}
 .order-summary {
-  min-height: 656px;
+  position: sticky;
+  right: 0;
+  top: 65px;
+  height: 656px;
   width: 536px;
   border: 1px solid rgba(235, 235, 235, 1);
   border-radius: 10px;
@@ -196,6 +202,8 @@ section {
 }
 .whatever {
   display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 1120px) {

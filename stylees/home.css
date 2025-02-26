@@ -1,5 +1,6 @@
 /* hero START */
 .hero {
+  margin-top: 88px;
   height: 632px;
   width: 100%;
   background: linear-gradient(90.7deg, #211c24 0.64%, #211c24 101%);
@@ -172,6 +173,9 @@ span {
   border: solid 1px rgba(0, 0, 0, 1);
   color: rgba(0, 0, 0, 1);
 }
+.buy-now-link {
+  padding-inline: 64px;
+}
 .macbook span {
   font-size: 64px;
 }
@@ -188,6 +192,9 @@ span {
   display: none;
 }
 @media only screen and (max-width: 1120px) {
+  .buy-now-link {
+    padding-inline: 39px;
+  }
   .pictures {
     height: auto;
     display: grid;

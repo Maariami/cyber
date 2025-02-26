@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   fetch("./items/items.json")
-    .then((response) => response.json())
-    .then((products) => {
+    .then(async (res) => {
+      const products = await res.json();
       const container = document.getElementById("products-container");
 
       products.forEach((product) => {
@@ -136,9 +136,6 @@ document.addEventListener("click", function (event) {
 
           // Save the updated cart to localStorage
           localStorage.setItem("cart", JSON.stringify(cart));
-
-          // Optionally, you can redirect to the cart page
-          alert("Item added to cart!");
         }
       })
       .catch((error) => console.error("Error adding product to cart:", error));
