@@ -1,21 +1,22 @@
-fetch(`../items/items.json`)
-  .then((monacemebi) => monacemebi.json())
-  .then((monacemi) => {
-    const produqtebi = document.getElementById("products-container");
-    monacemi.forEach((produqti) => {
-      const item = document.createElement(`div`);
-      item.innerHTML = `<div class="product">
+fetch(`items/items.json`)
+  .then((response) => response.json())
+  .then((products) => {
+    const prodContainer = document.getElementById("products-container");
+    products.forEach((item) => {
+      const product = document.createElement(`div`);
+      product.classList.add("product");
+      product.innerHTML = `
         <img class="" src="./images/cart.png" />
-        <img src="${produqti.image}" />
-        <p class="desc">${produqti.name} 
-        ${produqti.color}
-        ${produqti.material}
-        ${produqti.price}</p>
-        <p class="price">${produqti.price}$</p>
+        <img src="${item.image}" />
+        <p class="desc">${item.name} 
+        ${item.color}
+        ${item.material}
+        ${item.price}</p>
+        <p class="price">${item.price}$</p>
         <button class="shop-now"><a href="#">Buy Now</a></button>
-        </div>
+      
         `;
-      produqtebi.appendChild(item);
+      prodContainer.appendChild(product);
     });
   });
 
@@ -41,15 +42,21 @@ fetch(`../items/discount.json`)
     const discountdiv = document.getElementById(`discount-products`);
     objects.forEach((object) => {
       const salediv = document.createElement(`div`);
+      salediv.classList.add("product");
       salediv.innerHTML = `
-         <div class="product">
         <img class="" src="./images/cart.png" />
         <img src="${object.image}" alt="" />
         <p class="desc">${object.name}${object.model}</p>
         <p class="price">${object.price}$</p>
         <button class="shop-now"><a href="#">Buy Now</a></button>
-      </div>
         `;
       discountdiv.appendChild(salediv);
     });
   });
+
+function addingtostorage() {
+  fetch(`items/items.json`)
+    .then((response) => response.json())
+    .then((data) => localStorage.setItem("content", JSON.stringify(data)));
+}
+console.log(addingtostorage());
